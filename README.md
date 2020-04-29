@@ -50,7 +50,7 @@ Paper:
     ```
     Evaluation with `TCD_ROOT/METCD/Test`. Here are same samples of the tube contour detection results.
     
-    [放一些检测效果图片]
+    ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/Tube_contour_detection_results.jpg)
 
 ### License
 
