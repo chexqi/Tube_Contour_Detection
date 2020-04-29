@@ -20,6 +20,7 @@ Paper:
     The METCD contains multi-exposure (ME) images of 80 different scenes constructed with tubes, 30 of them are used for FCN training (train set), 10 of them are used for evaluation (validation set), and the rest are used for additional testing (test set).
     
     Each sample of this dataset contains 9 images collected at different exposure times, the corresponding HDR image and tube contour labels with different widths.
+    ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/A_sequence_of_tube_ME_images.jpg)
     
 ### Preparation for Training, Evaluation and Testing
 1. Training
@@ -27,8 +28,6 @@ Paper:
     $TCD_ROOT python _01TrainMain.py
     ```
     The FCN takes ME images of a static scene as input. Each group includes under-exposure, normal-exposure, and over-exposure images, so as to ensure that the network can obtain the information of tube contours in different dynamic ranges.
-    
-    ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/A_sequence_of_tube_ME_images.jpg)
 
 2. Evaluation
     ```Shell
