@@ -1,5 +1,5 @@
 # Tube_Contour_Detection
-Paper: 
+
  - **Paper**: [A fully convolutional network for tube contour detection via multi-exposure images](***)
  - **Dataset**: [Multi-exposure tube contour dataset (METCD)](***)
 
@@ -17,13 +17,21 @@ Paper:
     ```Shell
     $TCD_ROOT/METCD
     ```
-    The METCD contains multi-exposure (ME) images of 80 different scenes constructed with tubes, 30 of them are used for FCN training (train set), 10 of them are used for evaluation (validation set), and the rest are used for additional testing (test set).
+    The METCD contains multi-exposure (ME) images of 72 different scenes constructed with tubes, 30 of them are used for FCN training (train set), 10 of them are used for evaluation (validation set), and the rest are used for additional testing (test set).
     
     Each sample of this dataset contains 9 images collected at different exposure times, the corresponding HDR image and tube contour labels with different widths.
     
     ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/A_sequence_of_tube_ME_images.jpg)
     
     ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/HDR_image_and_labels.jpg)
+    
+### Experimental environment
+    python              3.6.7
+    opencv-python       3.4.3.18   
+    torch               1.4.0                 
+    torchsummary        1.5.1                 
+    torchvision         0.5.0                 
+    Some other libraries (find what you miss when running the code.)
     
 ### Preparation for Training, Evaluation and Testing
 1. Training
