@@ -28,7 +28,7 @@ Paper:
     ```
     The FCN takes ME images of a static scene as input. Each group includes under-exposure, normal-exposure, and over-exposure images, so as to ensure that the network can obtain the information of tube contours in different dynamic ranges.
     
-    [https://github.com/chexqi/Tube_Contour_Detection/A_sequence_of_tube_ME_images.jpg]
+    ![image](https://github.com/chexqi/Tube_Contour_Detection/A_sequence_of_tube_ME_images.jpg)
 
 2. Evaluation
     ```Shell
