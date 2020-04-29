@@ -21,7 +21,7 @@ Paper:
     
     Each sample of this dataset contains 9 images collected at different exposure times, the corresponding HDR image and tube contour labels with different widths.
     ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/A_sequence_of_tube_ME_images.jpg)
-    
+    ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/HDR_image and_label.jpg)
 ### Preparation for Training, Evaluation and Testing
 1. Training
     ```Shell
