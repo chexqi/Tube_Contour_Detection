@@ -23,7 +23,7 @@ Paper:
     
     ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/A_sequence_of_tube_ME_images.jpg)
     
-    ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/HDR_image and_label.jpg)
+    ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/HDR_image_and_label.jpg)
     
 ### Preparation for Training, Evaluation and Testing
 1. Training
