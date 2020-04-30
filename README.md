@@ -9,7 +9,7 @@
 
 1. Clone the TubeContourDetection repository
     ```Shell
-    git clone https://github.com/chexqi/TubeContourDetection
+    git clone https://github.com/chexqi/Tube_Contour_Detection.git
     ```
     We'll call the directory that you cloned TubeContourDetection into `TCD_ROOT`.
 
