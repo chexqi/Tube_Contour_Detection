@@ -25,6 +25,8 @@
     
     ![image](https://github.com/chexqi/Tube_Contour_Detection/blob/master/HDR_image_and_labels.jpg)
     
+3. Pre-trained model can alse be [downloaded](https://drive.google.com/file/d/1YGyoxAHBpFO6YnNNlwvqitJu_NDmrzHi/view?usp=sharing) directly for validation or testing.
+
 ### Experimental environment
 
     python              3.6.7
@@ -41,7 +43,7 @@
     ```
     The FCN takes ME images of a static scene as input. Each group includes under-exposure, normal-exposure, and over-exposure images, so as to ensure that the network can obtain the information of tube contours in different dynamic ranges.
 
-2. Evaluation
+2. Validation
     ```Shell
     $TCD_ROOT python _20ValiMain.py
     ```
