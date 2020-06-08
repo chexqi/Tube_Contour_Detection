@@ -1,7 +1,7 @@
 # Tube_Contour_Detection
 
  - **Paper**: [A fully convolutional network for tube contour detection via multi-exposure images](***)
- - **Dataset**: [Multi-exposure tube contour dataset (METCD)](https://drive.google.com/file/d/1wJ91exa__UEvhM0dzqUviNRASE1Q4JtD/view?usp=sharing)
+ - **Dataset**: [Multi-exposure tube contour dataset (METCD) (Coming soon)](***)
 
     Aiming at the problems of difficult and inaccurate extraction of tube contours under complex background, we propose a new tube contour detection method based on the fully convolutional network (FCN). 
 
@@ -13,7 +13,7 @@
     ```
     We'll call the directory that you cloned TubeContourDetection into `TCD_ROOT`.
 
-2. Download [METCD](https://drive.google.com/file/d/1wJ91exa__UEvhM0dzqUviNRASE1Q4JtD/view?usp=sharing), put it under`TCD_ROOT`
+2. Download [METCD (Coming soon)](*********), put it under`TCD_ROOT`
     ```Shell
     $TCD_ROOT/METCD
     ```
@@ -73,7 +73,7 @@ This code and METCD is released under the MIT License (refer to the LICENSE file
 If you find this code or METCD useful in your research, please consider citing:
 
     @article{TubeContourDetection_METCD,
-        Author = {Xiaoqi Cheng, ****},
+        Author = {Xiaoqi Cheng, Junhua Sun, Fuqiang Zhou},
         Title = {A fully convolutional network for tube contour detection via multi-exposure images},
         Journal = {Submitted to Neurocomputing},
         Year = {2020.**}
