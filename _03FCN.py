@@ -9,7 +9,7 @@ from collections import OrderedDict
 import torch, torchsummary
 import torch.nn as nn
 import numpy as np
-import Timer
+import _99Timer
 
 class Net(nn.Module):
 	def __init__(self, InputChannels=1, OutputChannels=1, InitFeatures=64, WithActivateLast=True, ActivateFunLast=None):

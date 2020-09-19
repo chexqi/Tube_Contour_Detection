@@ -4,7 +4,7 @@
 @Time    : 2019/10/24 9:33
 """
 import logging, os, torch
-from Timer import *
+from _99Timer import *
 from _02MultiPipeDatasetLoader import *
 from _03FCN import *
 from _04LossFunction import *

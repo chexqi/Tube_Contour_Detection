@@ -5,7 +5,7 @@ Testing
 @Time    : 2019/10/25 9:52
 """
 import torch
-from Normalization import *
+from _99Normalization import *
 from _31TestMultiPipeDatasetLoader import *
 from _03FCN import *
 from _21CalEvaluationMetrics import *

@@ -5,8 +5,8 @@ Validatation
 @Time    : 2019/10/25 9:52
 """
 import torch,glob
-from Normalization import *
-from SaveLoad import *
+from _99Normalization import *
+from _99SaveLoad import *
 from _02MultiPipeDatasetLoader import *
 from _03FCN import *
 from _21CalEvaluationMetrics import *
@@ -23,7 +23,7 @@ ModelNames = ['0700']
 for ModelName in ModelNames:
 	SaveFilePath = os.path.join(SaveFolder, 'result' + ModelName + '.txt')
 	if os.path.exists(SaveFilePath):
-		print(SaveFilePath,' exist!')
+		print(SaveFilePath+' already exist!')
 		continue
 
 	Model = Net(InputChannels=9, OutputChannels=1, InitFeatures=32, WithActivateLast=True, ActivateFunLast=torch.sigmoid).cuda()
