@@ -1,6 +1,6 @@
 # Tube_Contour_Detection
 
- - **Paper**: [A fully convolutional network for tube contour detection via multi-exposure images(Submitted for Publication)](***)
+ - **Paper**: [A fully convolutional network for tube contour detection via multi-exposure images (Submitted for Publication)](***)
  - **Dataset**: [Multi-exposure tube contour dataset (METCD)](https://drive.google.com/file/d/1wJ91exa__UEvhM0dzqUviNRASE1Q4JtD/view?usp=sharing)
 
     Aiming at the problems of difficult and inaccurate extraction of tube contours under complex background, we propose a new tube contour detection method based on the fully convolutional network (FCN). 
