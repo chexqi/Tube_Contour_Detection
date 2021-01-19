@@ -73,9 +73,9 @@ This code and METCD is released under the MIT License (refer to the LICENSE file
 If you find this code or METCD useful in your research, please consider citing:
 
     @article{TubeContourDetection_METCD,
-        Author = {Xiaoqi Cheng, Junhua Sun, Fuqiang Zhou},
+        Author = {Junhua Sun, Xiaoqi Cheng, Fuqiang Zhou},
         Title = {A fully convolutional network for tube contour detection via multi-exposure images},
-        Journal = {Submitted to Expert Systems with Applications},
-        Year = {2020.**}
+        Journal = {Submitted to International Journal of Machine Learning and Cybernetics},
+        Year = {2021.**}
     }
 
