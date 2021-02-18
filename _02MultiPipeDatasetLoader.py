@@ -67,8 +67,7 @@ class PipeDataset(Dataset):
 		TMImg = Image.open(TMImgPath)
 
 		# %% Ensure that the input data and the label have the same transformation
-		# seed = np.random.randint(2147483647)
-		seed = torch.manual_seed(2147483647)
+		seed = np.random.randint(2147483647)
 		TranMultiImgs = []
 		for MultiImg in MultiImgs:
 			random.seed(seed)
