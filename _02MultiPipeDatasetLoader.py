@@ -71,10 +71,13 @@ class PipeDataset(Dataset):
 		TranMultiImgs = []
 		for MultiImg in MultiImgs:
 			random.seed(seed)
+			torch.manual_seed(seed)
 			TranMultiImgs.append(self.ImgTransform(MultiImg))
 		random.seed(seed)
+		torch.manual_seed(seed)
 		LabelImg = self.LabelTransform(LabelImg)
 		random.seed(seed)
+		torch.manual_seed(seed)
 		TMImg = self.LabelTransform(TMImg)
 
 		# %% Show Sample
