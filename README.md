@@ -75,7 +75,7 @@ If you find this code or METCD useful in your research, please consider citing:
     @article{TubeContourDetection_METCD,
         Author = {Xiaoqi Cheng, Junhua Sun, Fuqiang Zhou},
         Title = {A Fully Convolutional Network-Based Tube Contour Detection Method Using Multi-Exposure Images},
-        Journal = {Submitted to sensors},
-        Year = {2021.**}
+        Journal = {Sensors},
+        Year = {2021}
     }
 
